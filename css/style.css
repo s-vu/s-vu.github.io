@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mukta:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
+header h1 {
+  font-size:60px;
+  font-family: 'Overpass', sans-serif;
+  margin:0px;
+  background-color:coral;
+  color:#EEE;
+  text-align:center;
+  padding:20px;
+  font-weight:900;
+}
+body {
+  margin:0px;
+  background-color:#4177b0;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+#navbar {
+  background-color:#333;
+  overflow:hidden;
+  line-height:60px;
+}
+#navbar ul {
+  list-style:none;
+  display:inline;
+  padding:20px;
+  margin:20px;
+}
+#navbar li {
+  display:inline;
+  padding:5px 10px;
+  margin:5px;
+}
+#navbar a:hover{
+  color:red;
+}
+#navbar a {
+  color:#fff;
+  text-decoration:none;
+  font-size:15px;
+  font-family: 'Varela Round', sans-serif;
+}
+#mainsection {
+  box-sizing:border-box;
+  float:center;
+  padding:10px;
+  border:solid;
+  border-color:#FD7C6F;
+  background-color:#FD7C6F;
+	border-radius:20px;
+	margin:60px 200px;
+}
+#mainsection h2 {
+  margin:0px;
+  font-size:50px;
+  font-weight:bold;
+  color:#fff;
+  font-family: 'Mukta', sans-serif;
+  text-align:center;
+}
+#mainsection p {
+  font-family: 'PT Sans', sans-serif;
+  font-size:28px;
+  text-align:center;
+  color:black;
+  margin-top:2px;
+}
+footer {
+  font-family: 'PT Sans', sans-serif;
+  text-align:center;
+  color:black;
+}
+#gallery {
+  width: 1000px;
+  margin:auto;
+}
+article {
+  box-sizing:border-box;
+  padding:10px;
+  border:solid 20px;
+  border-color:#FD7C6F;
+  background-color:#FD7C6F;
+	border-radius:20px;
+  width:50%;
+  display:inline-block;
+}
+article h2{
+  margin:0px;
+  font-size:50px;
+  font-weight:bold;
+  color:#fff;
+  font-family: 'Mukta', sans-serif;
+  text-align:center;
+}
+article p {
+  font-family: 'PT Sans', sans-serif;
+  font-size:28px;
+  text-align:center;
+  color:black;
+  margin-top:2px;
+}
+article li {
+  font-family: 'PT Sans', sans-serif;
+  font-size:28px;
+  color:black;
+  margin-top:2px;
+  margin-left:20px;
+}
+.aboutme {
+  background-color:#11CDDE;
+  border-color:#11CDDE;
+  float:left;
+  margin-left:120px;
+  width:800px;
+  margin-top:60px;
+  height:600px;
+  box-shadow:0px 0px 5px 2px #11CDDE;
+}
+.imgofme {
+  float:center;
+  margin-left:108px;
+  border:20px;
+  padding-top:16px;
+}
+.imgofme img {
+  border-radius:12px;
+  border: solid black;
+}
+.interests {
+  background-color:#fee074;
+  border-color:#fee074;
+  float:right;
+  margin-right: 120px;
+  width:800px;
+  height:600px;
+  margin-top:60px;
+  box-shadow:0px 0px 5px 2px #fee074;
+}
+#d3 {
+  height:262px;
+  width:254px;
+}
+#cl {
+  margin-left:200px;
+  height:204px;
+  width:192px;
+}
+.favorites {
+  float:left;
+  margin-left:120px;
+  width:800px;
+  margin-top:60px;
+  height:600px;
+  box-shadow:0px 0px 5px 2px #FD7C6F;
+}
+/* font-family: 'Mukta', sans-serif; font-family: 'Varela Round', sans-serif; font-family: 'Overpass', sans-serif; */
+/* mint-grey = :#9be2d4 */

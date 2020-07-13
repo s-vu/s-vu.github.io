@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mukta:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
+header h1 {
+  font-size:60px;
+  font-family: 'Overpass', sans-serif;
+  margin:0px;
+  background-color:#effffb;
+  color:#272727;
+  text-align:center;
+  padding:20px;
+  font-weight:900;
+}
+body {
+  margin:0px;
+  background-color:#4f98ca;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+#navbar {
+  background-color:#50d890;
+  overflow:hidden;
+  line-height:60px;
+}
+#navbar ul {
+  list-style:none;
+  display:inline;
+  padding:20px;
+  margin:20px;
+}
+#navbar li {
+  display:inline;
+  padding:5px 10px;
+  margin:5px;
+}
+#navbar a:hover{
+  color:black;
+}
+#navbar a {
+  color:#fff;
+  text-decoration:none;
+  font-size:15px;
+  font-family: 'Varela Round', sans-serif;
+}
+#list {
+  margin-left:150px;
+  margin-top:100px;
+  margin-right:150px;
+}
+article {
+  box-sizing:border-box;
+  display:inline-block !important;
+  margin-left:25px;
+  margin-right:25px;
+  border-radius:20px;
+  width:264px !important;
+  height:200px !important;
+  box-shadow: 0px 0px 20px 2px;
+  margin-bottom:100px;
+}
+article h2{
+  margin:0px;
+  font-size:50px;
+  font-weight:bold;
+  color:#fff;
+  font-family: 'Mukta', sans-serif;
+  text-align:center;
+}
+article p {
+  font-family: 'PT Sans', sans-serif;
+  font-size:28px;
+  text-align:center;
+  color:black;
+  margin-top:2px;
+}
+article li {
+  font-family: 'PT Sans', sans-serif;
+  font-size:28px;
+  color:black;
+  margin-top:2px;
+  margin-left:20px;
+}
+#mit {
+  background-color: #a31f34;
+  box-shadow: 0px 0px 20px 1px #a31f34;
+}
+#mitimg {
+  width:192px;
+  height:100px;
+  background-image:url(../images/colleges/mit.png);
+  background-size:cover;
+  margin:auto;
+  margin-left:auto;
+  float:center;
+  margin-top:50px;
+}
+#mit:hover{
+  box-shadow:0px 0px 20px  5px #a31f34;
+}
+#rice {
+  background-color: #002469;
+  box-shadow: 0px 0px 20px 1px #002469;
+}
+#riceimg {
+  background-image:url(../images/colleges/rice.png);
+  height:150px;
+  width:126px;
+  margin-right:0px;
+  margin-left:69px;
+  margin-top:25px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+#rice:hover{
+  box-shadow:0px 0px 20px  5px #002469;
+}
+#stanford {
+  background-color: #8E0D0D;
+  box-shadow:0px 0px 20px  1px #8E0D0D;
+}
+#stanfordimg {
+  background-image:url(../images/colleges/stanford.png);
+  width:100px;
+  height:150px;
+  margin-left:82px;
+  margin-top:25px;
+  background-size: contain;
+}
+#stanford:hover {
+  box-shadow: 0px 0px 20px 5px #8E0D0D;
+}
+#jhu {
+  background-color:#012D74;
+  box-shadow: 0px 0px 20px 1px #012D74;
+}
+#jhuimg {
+  background-image:url(../images/colleges/jhu.png);
+  width:150px;
+  height:150px;
+  background-size: contain;
+  margin-left:57px;
+  margin-top:25px;
+}
+#jhu:hover {
+  box-shadow: 0px 0px 20px 5px #012D74;
+}
+#usc {
+  background-color:#990000;
+  box-shadow: 0px 0px 20px 1px #990000;
+}
+#usc:hover {
+    box-shadow:0px 0px 20px 5px #990000;
+}
+#uscimg {
+  background-image:url(../images/colleges/usc.png);
+  width:100px;
+  height:144px;
+  background-size: contain;
+  margin-left:82px;
+  margin-top:28px;
+}
+#vanderbilt {
+  background-color:black;
+  box-shadow: 0px 0px 20px 1px #000;
+}
+#vanderbilt:hover {
+  box-shadow: 0px 0px 20px 5px #000;
+}
+#vanderbiltimg {
+  background-image:url(../images/colleges/vanderbilt.jpg);
+  width:150px;
+  height:150px;
+  margin-left:57px;
+  margin-top:25px;
+  background-size:contain;
+}
+#washu {
+  background-color:#D52027;
+  box-shadow: 0px 0px 20px 1px #D52027;
+}
+#washu:hover {
+  box-shadow: 0px 0px 20px 5px #D52027;
+}
+#washuimg {
+  background-image:url(../images/colleges/washu.png);
+  width:150px;
+  height:150px;
+  background-size:contain;
+  margin-left:57px;
+  margin-top:25px;
+}
+#cornell {
+  background-color:#F7F7F7;
+  box-shadow: 0px 0px 20px 1px #F7F7F7;
+}
+#cornell:hover {
+  box-shadow: 0px 0px 20px 5px #F7F7F7;
+}
+#cornellimg {
+  background-image:url(../images/colleges/cornell.png);
+  width:150px;
+  height:150px;
+  background-size:contain;
+  margin-left:57px;
+  margin-top:25px;
+}
+#hmc {
+  background-color:#EAA200;
+  box-shadow: 0px 0px 20px 1px #EAA200;
+}
+#hmc:hover {
+  box-shadow: 0px 0px 20px 5px #EAA200;
+}
+#hmcimg {
+  background-image:url(../images/colleges/hmc.png);
+  background-size:contain;
+  width:150px;
+  height:150px;
+  margin-left:57px;
+  margin-top:25px;
+}
+#unl {
+  background-color:white;
+  box-shadow: 0px 0px 20px 1px white;
+}
+#unl:hover {
+  box-shadow: 0px 0px 20px 5px white;
+}
+#unlimg {
+  background-image:url(../images/colleges/unl.png);
+  background-size:contain;
+  width:150px;
+  height:150px;
+  margin-left:57px;
+  margin-top:25px;
+}
+footer {
+  text-align:center;
+}
+/* colors: effffb 50d890 4f98ca 272727*/
+/* the box size is 264 *200 /*
