@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=IBM+Plex+Mono:wght@100;300&family=Roboto+Mono:ital,wght@0,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap');
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -68,18 +69,49 @@ nav li {
 }
 nav a {
   text-decoration:none;
-  color:#000;
+  color:#343434;
   size:25px;
   transition: .3s;
 }
 nav a:hover{
   color:#1464c4;
 }
+#splash {
+  width: 100%;
+  margin:auto;
+  display:flex;
+  padding-top:200px;
+  padding-bottom:40px;
+  
+  
 
+}
+#splash h1 {
+  font-family: 'Fira Mono', sans-serif;
+  font-size:56px;
+  text-align:right;
+  padding-right:100px;
+  padding-top:5px;
+}
+#splash h2 {
+  font-family: 'Fira Mono', sans-serif;
+  font-size:20px;
+  text-align:right;
+  padding-right:100px;
+  padding-top:5px;
+}
+#splashtext {
+  float: left;
+  width:50%;
+  margin-left:120px;
+}
+#splash img {
+  width:300px;
+  height:auto;
+}
 #aboutme {
     width: 60%;
     margin:auto;
-    padding-top:200px;
 }
 #contact {
   width: 60%;
@@ -95,15 +127,20 @@ nav a:hover{
     font-size:24px;
 }
 
+#locations {
+  float:right;
+  padding-right:100px;
+}
 #locations i{
   display:inline;
 }
 #locations p {
   display:inline;
+  font-family: 'Fira Mono', sans-serif;
   font-size:20px;
-  position: relative;
-  top: -4px;
-  padding-right:4px;
+  text-align:right;
+  padding-right:10px;
+  padding-top:5px;
 }
 
 
@@ -155,9 +192,14 @@ nav a:hover{
   font-family: 'Fira Mono', sans-serif;
   font-size:40px;
 }
+#links p {
+  font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:24px;
+}
 
 .btn {
-  background-color: #000; /* Blue background */
+  background-color: #343434; /* Blue background */
   border: none; /* Remove borders */
   color: white; /* White text */
   padding: 4px; /* Some padding */
