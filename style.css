@@ -16,7 +16,7 @@ header {
     background-color:white;
 }
 body {
-    min-width:1900px;
+    max-width:1900px;
     padding-bottom:60px;
 }
 .container {
